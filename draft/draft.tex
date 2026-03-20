@@ -1,8 +1,8 @@
 
-\documentclass{article} % For LaTeX2e
+\documentclass{article} 
 \usepackage{iclr2025_conference,times}
 
-% Optional math commands from https://github.com/goodfeli/dlbook_notation.
+
 \input{math_commands.tex}
 
 \usepackage{hyperref}
@@ -11,45 +11,44 @@
 
 \title{Formatting Instructions for ICLR 2025 \\ Conference Submissions}
 
-% Authors must not appear in the submitted version. They should be hidden
-% as long as the \iclrfinalcopy macro remains commented out below.
-% Non-anonymous submissions will be rejected without review.
 
 \author{Raphaël Faure 2 \& Tristan Beruard \\
 CentraleSupélec \\
 \texttt{\{raphael.faure2, tristan.beruard\}@student-cs.fr} \\
 }
 
-% The \author macro works with any number of authors. There are two commands
-% used to separate the names and addresses of multiple authors: \And and \AND.
-%
-% Using \And between authors leaves it to \LaTeX{} to determine where to break
-% the lines. Using \AND forces a linebreak at that point. So, if \LaTeX{}
-% puts 3 of 4 authors names on the first line, and the last on the second
-% line, try using \AND instead of \And before the third author name.
-
 \newcommand{\fix}{\marginpar{FIX}}
 \newcommand{\new}{\marginpar{NEW}}
 
-\iclrfinalcopy % Uncomment for camera-ready version, but NOT for submission.
+\iclrfinalcopy 
 \begin{document}
 
 
 \maketitle
 
 \begin{abstract}
-The abstract paragraph should be indented 1/2~inch (3~picas) on both left and
-right-hand margins. Use 10~point type, with a vertical spacing of 11~points.
-The word \textsc{Abstract} must be centered, in small caps, and in point size 12. Two
-line spaces precede the abstract. The abstract must be limited to one
-paragraph.
+Study of the ALFA-LD dataset, systems calls for intrusion detection on a Linux Machine
+
 \end{abstract}
 
 \section{Motivation and Problem Definition}
 
+The number of intrusion has been increasing over the past few years, boosted by AI. As a general rule in Cyber Security, the defense systems must 
+adapt using to the attacks using the same technologies. Machine Learning over Graphs has also seen meaningful improvements recently. Our goal is to study the 
+intrusion detection, which is defined by ..., using the systems calls of a Linux Machine. The dataset used is the ALFA-LD dataset, composed of ..., 
+Our goal will be to process the dataset into a graph, and then to apply and test different graph algorithms for detection intrusion. 
+Traditionnal methods treat these systems call as sequences, using therefore sequential models. 
+Here we focus on a graph modelling approach. 
+
 \section{Methodology}
 
+def of a System call 
+graph formulation 
+
 \section{Evaluation}
+
+metric 
+
 \section{References}
 
 
@@ -67,7 +66,14 @@ acknowledgments, including those to funding agencies, go at the end of the paper
 
 \appendix
 \section{Appendix}
-You may include other additional sections here.
+https://arxiv.org/pdf/2509.16625
+An Anomaly Intrusion Detection Method Based on PageRank Algorithm : https://ieeexplore-ieee-org.ezproxy.universite-paris-saclay.fr/document/6682431
+dataset : https://old.dbs.uni-leipzig.de/file/Intrusion-Detection-on-System-Call-Graphs.pdf
+more advanced dataset : https://old.dbs.uni-leipzig.de/file/BSI-LID-DS.pdf
+
+
+
+
 
 
 \end{document}
