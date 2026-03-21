@@ -12,6 +12,7 @@
 \title{Formatting Instructions for ICLR 2025 \\ Conference Submissions}
 
 
+
 \author{Raphaël Faure 2 \& Tristan Beruard \\
 CentraleSupélec \\
 \texttt{\{raphael.faure2, tristan.beruard\}@student-cs.fr} \\
@@ -27,20 +28,28 @@ CentraleSupélec \\
 \maketitle
 
 \begin{abstract}
-Study of the ALFA-LD dataset, systems calls for intrusion detection on a Linux Machine
+
+In our  
 
 \end{abstract}
 
 \section{Motivation and Problem Definition}
 
-The number of intrusion has been increasing over the past few years, boosted by AI. As a general rule in Cyber Security, the defense systems must 
-adapt using to the attacks using the same technologies. Machine Learning over Graphs has also seen meaningful improvements recently. Our goal is to study the 
-intrusion detection, which is defined by ..., using the systems calls of a Linux Machine. The dataset used is the ALFA-LD dataset, composed of ..., 
-Our goal will be to process the dataset into a graph, and then to apply and test different graph algorithms for detection intrusion. 
-Traditionnal methods treat these systems call as sequences, using therefore sequential models. 
-Here we focus on a graph modelling approach. 
+In 2026, \textit{cite} states that more than X\% of the code pushed to GitHub is AI generated. 
+AI allows for faster proptype, and easier "launch of code" even in production. But \cite{} shows that without 
+Careful code reviews of sometimes thousand of AI code lines, bugs and break can more frequently appears. 
+Detecting whereas a code comes from an LLM or not can therefore reinforce the craefulness when reviewving it... 
+
+Detecting AI generated content is a non trivial task and has been the subject of many research works. Many approaches use LLMs to detect AI generated content, and in particular, generated text.
+Our ambition is not to detect AI generated content but to focus on a more specific content type : code.
+There exist many different ways of representing code and it is certainly not limited to text representation. 
+Very common representations include Abstract Syntax Tree (AST), Control Flow Graph (CFG) and Data Flow Graph (DFG). Those are widely
+used in a broad range of applications such as code compilation, syntax error detection, and even vulnerability detection.
+
+In this work, we will explore the use of graph-based representations of code, such as ASTs, CFGs, and DFGs, to detect AI-generated code.
 
 \section{Methodology}
+
 
 def of a System call 
 graph formulation 
